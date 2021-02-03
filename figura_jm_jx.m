@@ -19,6 +19,7 @@ for i = gx:sx:px
   
 end
 
+% valores de m 
 jm = [];
 index_jm = 1; % variavel indexadoraauxiliar para iteração do vetor Jm
 for i = gm:sm:pm
@@ -26,7 +27,8 @@ for i = gm:sm:pm
     index_jm = index_jm +1
   
 end
-% valores de m 
+
+% plot dos graficos
 
 figure; 
 
