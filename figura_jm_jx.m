@@ -33,7 +33,10 @@ figure;
 % figura jx
 subplot(1,2,1);
 plot(gx:sx:px, jx);
+title('x por Jx') ;
 
 %figura jm
-subplot(1, 2, 2)
-plot(gm:sm:pm, jm)
+subplot(1, 2, 2);
+plot(gm:sm:pm, jm);
+title('m por Jm');
+
